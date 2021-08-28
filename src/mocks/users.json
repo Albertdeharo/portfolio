@@ -1,0 +1,80 @@
+[
+    {
+        "id": 9163,
+        "uid": "76c42923-43cb-423d-aba6-4a66541c6925",
+        "password": "CniTOGxXgj",
+        "first_name": "Rki",
+        "last_name": "Cle",
+        "username": "ri.cole",
+        "email": "rikcole@email.com",
+        "avatar": "https://robohash.org/nobisexexplicabo.png?size=300x300&set=set1",
+        "gender": "Gendeid",
+        "phone_number": "+809 65.113.593 x4273",
+        "social_insurance_number": "494198",
+        "date_of_birth": "3-07-23",
+        "employment": {
+          "title": "Healthcare Facilitator",
+          "key_skill": "Leadership"
+        },
+        "address": {
+          "city": "Durganstad",
+          "street_name": "King Way",
+          "street_address": "13565 Sporer Village",
+          "zip_code": "46154",
+          "state": "New Hampshire",
+          "country": "United States",
+          "coordinates": {
+            "lat": 84.78661601310685,
+            "lng": -161.81866087994396
+          }
+        },
+        "credit_card": {
+          "cc_number": "5452-3841-2833-0842"
+        },
+        "subscription": {
+          "plan": "Student",
+          "status": "Blocked",
+          "payment_method": "Alipay",
+          "term": "Annual"
+        }
+      },
+      {
+        "id": 63,
+        "uid": "76c42923-43cb-423d-aba6-4a66541c6925",
+        "password": "CniTOGxXgj",
+        "first_name": "Rikki",
+        "last_name": "Cole",
+        "username": "rikki.cole",
+        "email": "rikki.cole@email.com",
+        "avatar": "https://robohash.org/nobisexexplicabo.png?size=300x300&set=set1",
+        "gender": "Genderfluid",
+        "phone_number": "+809 365.113.5893 x4273",
+        "social_insurance_number": "475594198",
+        "date_of_birth": "1983-07-23",
+        "employment": {
+          "title": "Healthcare Facilitator",
+          "key_skill": "Leadership"
+        },
+        "address": {
+          "city": "Durganstad",
+          "street_name": "King Way",
+          "street_address": "13565 Sporer Village",
+          "zip_code": "46154",
+          "state": "New Hampshire",
+          "country": "United States",
+          "coordinates": {
+            "lat": 84.78661601310685,
+            "lng": -161.81866087994396
+          }
+        },
+        "credit_card": {
+          "cc_number": "5452-3841-2833-0842"
+        },
+        "subscription": {
+          "plan": "Student",
+          "status": "Blocked",
+          "payment_method": "Alipay",
+          "term": "Annual"
+        }
+      }
+]
