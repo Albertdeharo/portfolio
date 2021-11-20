@@ -1,6 +1,8 @@
+import './../Header/header.scss';
+
 const Header = () => (
-    <header className="App-header">
-      <span>PORTFOLIO WITH REACT</span>
+    <header className="header-class">
+      <span>PORTFOLIwO WITH REACT</span>
     </header>
 );
 

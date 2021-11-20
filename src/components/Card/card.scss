@@ -1,0 +1,119 @@
+.card{
+  display: flex;
+  justify-content: end;
+  margin-top: 5vh;
+  margin-right: 10vh;
+  .glass-panel {
+    color: #fff;
+    background-color: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.1);
+    width: 100%;
+    border-radius: 15px;
+    padding: 32px;
+    backdrop-filter: blur(10px);
+  }
+  
+  .glass-button {
+    display: inline-block;
+    padding: 24px 32px;
+    border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(30px);
+    color: rgba(255,255,255,0.8);
+    font-size: 14px;
+    letter-spacing: 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+  }
+  
+  .glass-button:hover {
+    background-color: rgba(255,255,255,0.2);
+  }
+  
+  .glass-panel {  
+    max-width: 600px;
+  }
+  
+  .glass-button {
+    margin: 15px;
+    margin-top: 40px;
+  }
+  
+  h1, h1 a {
+    min-height: 120px;
+    width: 90%;
+    max-width: 700px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    padding-top: 60px;
+    color: rgba(255,255,255,0.8);
+  }
+  
+  p {
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 32px;
+    color: rgba(255,255,255,0.6);
+  }
+  & .neon-button{
+    a {
+      position: relative;
+      padding: 10px 30px;
+      margin: 0 15px;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 20px;
+      overflow: hidden;
+      transition: 0.5s;
+      &:hover{
+        background: rgba(255,255,255,0.4);
+        color: rgba(255,255,255,0.9);
+        box-shadow: 0 0 50px rgba(255,255,255,0.4);
+        transition-delay: 0.5s;
+      }
+      &::before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 10px;
+        height: 10px;
+        border-top: 2px solid rgba(255,255,255,0.4);
+        border-left: 2px solid rgba(255,255,255,0.4);
+        transition: 0.5s;
+        transition-delay: 0.5s;
+      }
+      &:hover:before{
+        width: 100%;
+        height: 100%;
+        transition-delay: 0s;
+      }
+  
+      &::after{
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 10px;
+        height: 10px;
+        border-bottom: 2px solid rgba(255,255,255,0.4);
+        border-right: 2px solid rgba(255,255,255,0.4);
+        transition: 0.5s;
+        transition-delay: 0.5s;
+      }
+      &:hover:after{
+        width: 100%;
+        height: 100%;
+        transition-delay: 0s;
+      }
+    }
+  }
+}
