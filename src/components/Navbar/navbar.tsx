@@ -1,14 +1,25 @@
+import React, {useState} from 'react';
 import './../Navbar/navbar.scss';
 
-const Navbar = () => (
+export default function Navbar(props:any) {
+  const [navbar, setNavbar] = useState(true);
+  const handleClick = () =>{
+    if(navbar == true) {
+      setNavbar(false);
+    }
+    if(navbar == false) {
+      setNavbar(true);
+    }
+  }
+  console.log(navbar);
+  return <>
     <nav className="navbar">
       <div className="neon-button">
-        <a href="#">BUTTON1</a>
-        <a href="#">BUTTON2</a>
-        <a href="#">BUTTON3</a>
-        <a href="#">BUTTON4</a>
+        <a onClick={handleClick}>{navbar == true ? 'ACTIVE':'OFF'}</a>
+        <a onClick={handleClick}>{navbar == true ? 'ACTIVE':'OFF'}</a>
+        <a onClick={handleClick}>{navbar == true ? 'ACTIVE':'OFF'}</a>
+        <a onClick={handleClick}>{navbar == true ? 'ACTIVE':'OFF'}</a>
       </div>
     </nav>
-);
-
-export default Navbar;
+  </>;
+}

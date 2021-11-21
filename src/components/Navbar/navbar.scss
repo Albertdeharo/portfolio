@@ -1,5 +1,8 @@
 .navbar{
   padding: 5vh;
+  @media (max-width: 500px) {
+    padding: 10vh;
+  }
 & .neon-button{
   a {
     position: relative;
