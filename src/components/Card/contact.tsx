@@ -1,9 +1,9 @@
 import './../Card/card.scss';
 
-const Card2 = () => (
+const Contact = () => (
   <div className="card">
     <div className="glass-panel">
-      <h1><a href="https://superdevresources.com/glassmorphism-ui-css/" target="_blank" rel="noreferrer">Glassmorphism CSS Panels and Buttons</a></h1>
+      <h1>CONTACT</h1>
       <p>THIS IS SECOND CARD</p>
       <div className="neon-button">
         <a className="glass-button" href="https://google.com" rel="noreferrer">1</a>
@@ -13,4 +13,4 @@ const Card2 = () => (
   </div>
 );
 
-export default Card2;
+export default Contact;

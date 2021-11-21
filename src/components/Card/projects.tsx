@@ -1,10 +1,10 @@
 import './../Card/card.scss';
 
-const Card = () => (
+const Projects = () => (
   <div className="card">
     <div className="glass-panel">
-      <h1><a href="https://superdevresources.com/glassmorphism-ui-css/" target="_blank" rel="noreferrer">Glassmorphism CSS Panels and Buttons</a></h1>
-      <p>Glassmorphism is achieved using transparency and background blur to get a frosted-glass like effect.</p>
+      <h1>PROJECTS</h1>
+      <p>PROJECTS</p>
       <div className="neon-button">
         <a className="glass-button" href="https://google.com" rel="noreferrer">ACTION 1</a>
         <a className="glass-button" href="https://google.com" rel="noreferrer">ACTION 2</a>
@@ -13,4 +13,4 @@ const Card = () => (
   </div>
 );
 
-export default Card;
+export default Projects;
